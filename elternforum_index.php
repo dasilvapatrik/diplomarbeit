@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Schule Buchwiesen</title>
+    <title>Schule Buchwiesen - Elternforum</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,15 +38,15 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-	<?php include("navbar.php"); /* Seitenauswahl: navbar.php*/?>
+	<?php include("elternforum_navbar.php"); /* Seitenauswahl: elternforum_navbar.php*/?>
 	
 	<!-- Header slider -->
     <header>
 	<?php include("slider.php"); /* Seitenauswahl: slider.php*/?>
     </header>
 	
-	<!-- Anspruchsgruppen -->
-    <?php include("anspruchsgruppen.php"); /* Seitenauswahl: anspruchsgruppen.php*/?>
+	<!-- Aktuelles -->
+	<?php include("elternforum_aktuelles.php"); /* Seitenauswahl: elternforum_aktuelles.php*/?>	
 
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -62,7 +62,7 @@
 <!-- Ende Scroll Hintergrund -->
 	
 	<!-- Aktuelles -->
-	<?php include("aktuelles.php"); /* Seitenauswahl: aktuelles.php*/?>
+	<?php include("elternforum_about.php"); /* Seitenauswahl: wer sind wir */?>
 
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -78,7 +78,7 @@
 <!-- Ende Scroll Hintergrund -->	
 	
     <!-- Leitbild Section -->
-	<?php include("leitbild.php"); /* Seitenauswahl: leitbild.php*/?>
+	<?php include("elternforum_team.php"); /* Seitenauswahl: Mitglieder Elternforum */?>
 
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -94,7 +94,7 @@
 <!-- Ende Scroll Hintergrund -->
 
     <!-- Team Section -->
-	<?php include("team_schule.php"); /* Seitenauswahl: team_schule.php*/?>
+	<?php include("downloads.php"); /* Seitenauswahl: downloads.php*/?>
 	
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -108,12 +108,7 @@
 		</div><!-- cd-fixed-bg -->
 	</div>		
 <!-- Ende Scroll Hintergrund -->	
-	
-    <!-- Angebote Section -->
-	<?php include("angebote.php"); /* Seitenauswahl: angebote.php*/?>
 
-	<!-- Downloads -->
-	<?php include("downloads.php"); /* Seitenauswahl: downloads.php*/?>
 
     <!-- Contact Section -->
 	<?php include("kontakt.php"); /* Seitenauswahl: kontakt.php*/?>
