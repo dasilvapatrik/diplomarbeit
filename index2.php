@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="css/buchwiesen.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -38,19 +37,94 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-	<?php include("navbar.php"); /* Seitenauswahl: navbar.php*/?>				
-
-
+	    <!-- Navigation -->
+	<?php include("navbar.php"); /* Seitenauswahl: navbar.php*/?>
 	
-	<!-- Header slider -->
+    <!-- Header -->
 	<header>
-		<?php include("slider.php"); /* Seitenauswahl: slider.php*/?>
-	</header>        
+		<section id="anspruchsgruppen">
+			<div class="container">
+				<div class="intro-text">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="anspruchsgruppen">
 
+								<div class="anspruchsgruppen-item">
+									<a href="#portfolioModal2" class="anspruchsgruppen-link" data-toggle="modal">
+										<div class="anspruchsgruppen-hover img-circle">
+											<div class="anspruchsgruppen-hover-content">
+												<i class="glyphicon glyphicon-cutlery fa-3x"></i> <!-- "fa fa-plus fa-3x" - weisses plus (+) zeichen-->
+											</div>
+										</div>
+										<img src="img/anspruchsgruppen/hort.png" class="img-responsive img-circle" alt="">
+									</a>
+								</div>	
+								<h4>Betreuung / Hort</h4>
+								<p class="text-muted"></p>								
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="anspruchsgruppen">
+
+								<div class="anspruchsgruppen-item">
+									<a href="#aktuelles" class="page-scroll anspruchsgruppen-link">
+										<div class="anspruchsgruppen-hover img-circle">
+											<div class="anspruchsgruppen-hover-content">
+												<i class="glyphicon glyphicon-education fa-3x"></i> <!-- weisses plus (+) zeichen-->
+											</div>
+										</div>
+										<img src="img/anspruchsgruppen/logo_weiss.jpg" class="img-responsive img-circle" alt="">
+									</a>
+								</div>	
+								<h4>Schule Buchwiesen</h4>
+								<p class="text-muted"></p>								
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="anspruchsgruppen">
+			
+								<div class="anspruchsgruppen-item">
+									<a href="elternforum_index.php" class="anspruchsgruppen-link">
+										<div class="anspruchsgruppen-hover img-circle">
+											<div class="anspruchsgruppen-hover-content">
+												<i class="glyphicon glyphicon-link fa-3x"></i> <!-- weisses plus (+) zeichen-->
+											</div>
+										</div>
+										<img src="img/anspruchsgruppen/elternforum.jpg" class="img-responsive img-circle" alt="">
+									</a>
+								</div>
+								<h4>Elternforum</h4>
+								<p class="text-muted"></p>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
 	
-	<!-- Anspruchsgruppen -->
-	<?php include("anspruchsgruppen.php"); /* Seitenauswahl: anspruchsgruppen.php*/?>
+	<!-- Aktuelles -->
+	<?php include("aktuelles.php"); /* Seitenauswahl: aktuelles.php*/?>
+	
+	
+<!-- Scroll Hintergrund -->	
+	<div class="scrollhintergrund">
+		<div class="cd-fixed-bg cd-bg-2">
+            <!-- <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Text TextText Text</h2>
+                    <h3 ><kbd>Lorem ipsum dolor sit amet consectetur.</kbd></h3>
+                </div>
+            </div>-->		
+		</div><!-- cd-fixed-bg -->
+	</div>		
+<!-- Ende Scroll Hintergrund -->	
+
+
+    <!-- Team Section -->
+	<?php include("team_schule.php"); /* Seitenauswahl: team_schule.php*/?>
+	
+
 
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -65,40 +139,9 @@
 	</div>		
 <!-- Ende Scroll Hintergrund -->
 	
-	<!-- Aktuelles -->
-	<?php include("aktuelles.php"); /* Seitenauswahl: aktuelles.php*/?>
-
-<!-- Scroll Hintergrund -->	
-	<div class="scrollhintergrund">
-		<div class="cd-fixed-bg cd-bg-2">
-            <!-- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Text TextText Text</h2>
-                    <h3 ><kbd>Lorem ipsum dolor sit amet consectetur.</kbd></h3>
-                </div>
-            </div>-->		
-		</div><!-- cd-fixed-bg -->
-	</div>		
-<!-- Ende Scroll Hintergrund -->	
-	
-    <!-- über uns Section -->
-	<?php include("team_schule.php"); /* Seitenauswahl: team_schule.php*/?>
-
-<!-- Scroll Hintergrund -->	
-	<div class="scrollhintergrund">
-		<div class="cd-fixed-bg cd-bg-3">
-            <!-- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Text TextText Text</h2>
-                    <h3 ><kbd>Lorem ipsum dolor sit amet consectetur.</kbd></h3>
-                </div>
-            </div>-->
-		</div><!-- cd-fixed-bg -->
-	</div>		
-<!-- Ende Scroll Hintergrund -->
-
     <!-- Leitbild Section -->
 	<?php include("leitbild.php"); /* Seitenauswahl: leitbild.php*/?>
+
 	
 <!-- Scroll Hintergrund -->	
 	<div class="scrollhintergrund">
@@ -116,6 +159,20 @@
     <!-- Angebote Section -->
 	<?php include("angebote.php"); /* Seitenauswahl: angebote.php*/?>
 
+<!-- Scroll Hintergrund -->	
+	<div class="scrollhintergrund">
+		<div class="cd-fixed-bg cd-bg-3">
+            <!-- <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Text TextText Text</h2>
+                    <h3 ><kbd>Lorem ipsum dolor sit amet consectetur.</kbd></h3>
+                </div>
+            </div>-->
+		</div><!-- cd-fixed-bg -->
+	</div>		
+<!-- Ende Scroll Hintergrund -->	
+	
+	
 	<!-- Downloads -->
 	<?php include("downloads.php"); /* Seitenauswahl: downloads.php*/?>
 
@@ -149,7 +206,6 @@
 <!-- JavaScript -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-	<script src="js/wow.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

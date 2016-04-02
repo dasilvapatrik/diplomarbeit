@@ -2,7 +2,7 @@
         <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
         <!-- ================================================== -->
         <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
-        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
             <!-- Loading Screen -->
             <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                 <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
@@ -13,19 +13,31 @@
                 </div>
             </div>
             <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 600px; overflow: hidden;">
                 <div>
-                    <img u="image" src2="img/slider/BuchwiesenBG2low.jpg" />
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_boden_ohne.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="img/slider/BuchwiesenBG3.jpg" />
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_boden.jpg" />
+                </div>				
+                <div>
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_pinsel_ohne.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="img/slider/BuchwiesenBG4low.jpg" />
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_pinsel.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="img/slider/BuchwiesenBG1low.jpg" />
-                </div>						
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_schachteln_ohne.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_schachteln.jpg" />
+                </div>				
+                <div>
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_farbenbild_ohne.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="img/slider/neuFilter/bw_slider_farbenbild.jpg" />
+                </div>					
             </div>
             
             <!--#region Bullet Navigator Skin Begin -->

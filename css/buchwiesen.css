@@ -123,6 +123,11 @@ h1,h2,h3,h4,h5,h6
 	background-color:#f7f7f7;
 }
 
+.bg-gray
+{
+	background-color:#eee;
+}
+
 .bg-darkest-gray
 {
 	background-color:#222;
@@ -211,6 +216,7 @@ h1,h2,h3,h4,h5,h6
 	color:#05a1e5; /* Farbe bei text brand nav-bar */ 
 	/* font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	//font-weight: bold;
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
@@ -246,9 +252,10 @@ h1,h2,h3,h4,h5,h6
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	//font-weight:400;
-	//letter-spacing: 2px;
+	letter-spacing: 1px;
 	color:#05a1e5;
-	font-size:0.9em;
+	font-size:1em;
+	font-weight: bold;
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus
@@ -282,7 +289,7 @@ h1,h2,h3,h4,h5,h6
 {
 	.navbar-default
 	{
-		background-color: rgba(255,255,255, .8);
+		background-color: rgba(255,255,255, .9);
 		padding:15px 0;
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
@@ -312,7 +319,7 @@ h1,h2,h3,h4,h5,h6
 
 	.navbar-default.navbar-shrink .navbar-brand
 	{
-		font-size:1.2em;
+		font-size:1.5em;
 	}
 }
 
@@ -356,7 +363,7 @@ header .intro-text .intro-heading {
 {
 	header
 	{
-		margin-top: -50px;
+		margin-top: -200px;
 	}
 	
 	header .intro-text 
@@ -792,7 +799,7 @@ section h3.section-subheading
 .anspruchsgruppen img
 {
 	margin:0 auto;
-	border:7px solid #fff ;
+	border:7px solid #FFF ;
 }
 
 .anspruchsgruppen h4

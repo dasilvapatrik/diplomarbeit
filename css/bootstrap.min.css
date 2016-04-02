@@ -4901,11 +4901,9 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 @media (min-width:768px)
 {
 	.navbar-header
-{
-	float:left;
-}
-
-;
+	{
+		float:left;
+	}
 }
 
 .navbar-collapse
@@ -4918,29 +4916,27 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	overflow-y:auto;
 }
 
-@media (min-width:768px)
+@media (min-width:768px) /* Auflösung wenn Navigations-Button erscheinen soll */
 {
-	.navbar-collapse
-{
-	width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none;
-}
+	.navbar-collapse /* Navigation zusammenklappen für kleinere Auflösungen */
+	{
+		width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none;
+	}
 
-.navbar-collapse.collapse
-{
-	display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important;
-}
+	.navbar-collapse.collapse
+	{
+		display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important;
+	}
 
-.navbar-collapse.in
-{
-	overflow-y:visible;
-}
+	.navbar-collapse.in
+	{
+		overflow-y:visible;
+	}
 
-.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse
-{
-	padding-right:0;padding-left:0;
-}
-
-;
+	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse
+	{
+		padding-right:0;padding-left:0;
+	}
 }
 
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse

@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top"> 
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -22,10 +22,10 @@
                         <a class="page-scroll" href="#aktuelles">Aktuelles</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Leitbild</a>
-                    </li>
+                        <a class="page-scroll" href="#team">über uns</a>
+                    </li>	
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#about">Leitbild</a>
                     </li>					
                     <li>
                         <a class="page-scroll" href="#portfolio">Angebote</a>
