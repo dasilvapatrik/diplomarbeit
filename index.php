@@ -145,7 +145,7 @@
 	<!-- Popup Seiten -->	
 	<?php include("angebotepopups.php"); /* Seitenauswahl: angebotepopups.php*/?>
 
-
+	
 <!-- JavaScript -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -10,9 +10,9 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="anspruchsgruppen">
-						<div class="wow bounceInLeft" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.1s">	
+						<div class="wow bounceInLeft" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.7s">	
 							<h4>Betreuung / Hort</h4>
-							<p class="text-muted">bla bla bla</p>
+							<p class="text-muted"></p>
 			
 							<div class="anspruchsgruppen-item">
 								<a href="#portfolioModal2" class="anspruchsgruppen-link" data-toggle="modal">
@@ -29,9 +29,9 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="anspruchsgruppen">
-						<div class="wow bounceIn" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+						<div class="wow bounceIn" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.5s">
 							<h4>Schule Buchwiesen</h4>
-							<p class="text-muted">bla bla bla</p>	
+							<p class="text-muted"></p>	
 							<div class="anspruchsgruppen-item">
 								<a href="#aktuelles" class="page-scroll anspruchsgruppen-link">
 									<div class="anspruchsgruppen-hover img-circle">
@@ -47,9 +47,9 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="anspruchsgruppen">
-						<div class="wow bounceInRight" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.1s">
+						<div class="wow bounceInRight" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.7s">
 							<h4>Elternforum</h4>
-							<p class="text-muted">bla bla bla</p>				
+							<p class="text-muted"></p>				
 							<div class="anspruchsgruppen-item">
 								<a href="elternforum_index.php" class="anspruchsgruppen-link">
 									<div class="anspruchsgruppen-hover img-circle">

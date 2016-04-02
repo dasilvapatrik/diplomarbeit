@@ -10,9 +10,11 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/1.jpg" alt="">
-                            </div>
+							<div class="wow bounceInDown" data-wow-offset="200" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/1.jpg" alt="">
+								</div>
+							</div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Lehren & Lernen</h4>
@@ -28,15 +30,17 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Lebensraum Schule</h4>
-                                </div>
-                                <div class="timeline-body">										
+						<li class="timeline-inverted">
+							<div class="wow bounceInDown" data-wow-offset="100" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/2.jpg" alt="">
+								</div>
+							</div>	
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>Lebensraum Schule</h4>
+								</div>
+								<div class="timeline-body">										
 									<ul class="list-unstyled text-muted">
 										<li>Wir schaffen Vertrauen durch Offenheit, Verbindlichkeit und Respekt.</li>
 										<li>Wir schätzen die Vielfältigkeit an unserer Schule und nutzen sie als Ressource.</li>
@@ -46,12 +50,14 @@
 										<li>Wir pflegen eine Schulkultur, an welcher die Kinder mitwirken können.</li>
 									</ul>
 								</div>
-                            </div>
-                        </li>
+							</div>
+						</li>
                         <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/3.jpg" alt="">
-                            </div>
+							<div class="wow bounceInDown" data-wow-offset="100" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/3.jpg" alt="">
+								</div>
+							</div>	
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Kooperationen</h4>
@@ -67,9 +73,11 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/4.jpg" alt="">
-                            </div>
+							<div class="wow bounceInDown" data-wow-offset="100" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/4.jpg" alt="">
+								</div>
+							</div>	
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Schulmanagement</h4>
@@ -86,9 +94,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/5.jpg" alt="">
-                            </div>
+							<div class="wow bounceInDown" data-wow-offset="100" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/5.jpg" alt="">
+								</div>
+							</div>	
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Betrieb & Infrastruktur</h4>
@@ -102,9 +112,11 @@
                             </div>
                         </li>						
                         <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/leitbild/logo200.jpg" alt="">
-                            </div>
+							<div class="wow bounceInDown" data-wow-offset="50" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="img/leitbild/logo200.jpg" alt="">
+								</div>
+							</div>	
                         </li>
                     </ul>
                 </div>

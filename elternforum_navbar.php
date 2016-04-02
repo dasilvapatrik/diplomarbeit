@@ -34,8 +34,8 @@
                         <a class="page-scroll" href="#contact">Kontakt</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href=".">Zurück</a>
-                    </li>
+                        <a class="page-scroll" href="."><img src="img/logos/logo_swbaum_20.png" class="img-responsive" alt=""></a>
+                    </li>	
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -15,29 +15,17 @@
             <!-- Slides Container -->
             <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 600px; overflow: hidden;">
                 <div>
-                    <img u="image" src2="img/slider/neuFilter/bw_slider_boden_ohne.jpg" />
-                </div>
-                <div>
                     <img u="image" src2="img/slider/neuFilter/bw_slider_boden.jpg" />
                 </div>				
                 <div>
-                    <img u="image" src2="img/slider/neuFilter/bw_slider_pinsel_ohne.jpg" />
-                </div>
-                <div>
                     <img u="image" src2="img/slider/neuFilter/bw_slider_pinsel.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="img/slider/neuFilter/bw_slider_schachteln_ohne.jpg" />
                 </div>
                 <div>
                     <img u="image" src2="img/slider/neuFilter/bw_slider_schachteln.jpg" />
                 </div>				
                 <div>
                     <img u="image" src2="img/slider/neuFilter/bw_slider_farbenbild_ohne.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="img/slider/neuFilter/bw_slider_farbenbild.jpg" />
-                </div>					
+                </div>		
             </div>
             
             <!--#region Bullet Navigator Skin Begin -->

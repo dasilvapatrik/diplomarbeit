@@ -2,15 +2,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<img class="center-block img-responsive" src="img/logos/logo_ohnetext300.png" alt="">
-                    <h2 class="section-heading">Wir sind Buchwiesen</h2>
-                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+					<div class="wow bounceInRight" data-wow-offset="300" data-wow-duration="1s" data-wow-iteration="1" data-wow-delay="0.3s">
+						<img class="center-block img-responsive" src="img/logos/logo_ohnetext300.png" alt="">
+						<h2 class="section-heading">Wir sind Buchwiesen</h2>
+						<!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+					</div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<p class="large text-muted"><h2>WER SIND WIR</h2></p>
+					<p class="large topabstand text-muted"><h2>WER SIND WIR</h2></p>
 						<p class="large text-muted">Unsere Schule gehört zu den über 110 öffentlichen Schulen der Stadt Zürich und bietet neben
 						dem regulären Unterricht im Kindergarten und der Primarschule auch zahlreiche weitere <strong>attraktive Angebote</strong> für die Schülerinnen und Schüler.</p>
 						
@@ -21,14 +23,14 @@
 						Im Betreuungsbereich sind rund 20 Hortleitende und Assistenzen im Einsatz.</p>
 					
 					
-					<p class="large text-muted"><h2>WAS ZEICHNET UNS AUS</h2></p>
+					<p class="large topabstand text-muted"><h2>WAS ZEICHNET UNS AUS</h2></p>
 						<p class="large text-muted">Wir sehen uns als eine Einheit aus Unterrichtsteam und Betreuungsteam. Gemeinsam verfolgen wir das Ziel den Schülerinnen und Schülern 
 						der Schule Buchwiesen eine gute, ansprechende und unterstützende Förderung anzubieten. Eine gute Zusammenarbeit zwischen allen Beteiligten in unserem Schulbetrieb
 						ist uns wichtig. Sie fördert das Lernen der Kinder, erhöht die Akzeptanz der Schule in der Öffentlichkeit und entlastet die Einzelperson. Um dies gewährleisten zu
 						können arbeiten die Betreuung und die Unterrichtsteams Hand in Hand. </p>
 					
 					
-					<p class="large text-muted"><h2>WIE ARBEITEN WIR</h2></p>
+					<p class="large topabstand text-muted"><h2>WIE ARBEITEN WIR</h2></p>
 						<p class="large text-muted">Die gute Zusammenarbeit wird aufgebaut durch Wertschätzung, gegenseitige Information und - falls nötig
 						- die Koordination von pädagogischen Massnahmen.</p>
 
